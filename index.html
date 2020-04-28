@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8" />
+    <title>m9rcy page</title>
+    <meta name="description" content="m9rcy page" />
+    <meta name="author" content="m9rcy" />
+
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link
+      href="http://fonts.googleapis.com/css?family=Raleway:400,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/skeleton.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+  </head>
+  <body>
+    <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="container">
+      <section class="header">
+        <h2 class="title">A simple page for my development needs</h2>
+        <a
+          class="button button-primary"
+          href="#"
+          >m9rcy.io</a
+        >
+        <div class="value-props row">
+          <div class="four columns value-prop">
+            <img
+              class="value-img"
+              src="images/me.svg"
+              height="130"
+              width="70"
+            />
+            Know more about me and this page
+          </div>
+          <div class="four columns value-prop">
+            <img
+              class="value-img"
+              src="images/resources.svg"
+              height="130"
+              width="70"
+            />
+            Resource and tooling to help ease the development.
+          </div>
+          <div class="four columns value-prop">
+            <img
+              class="value-img"
+              src="images/projects.svg"
+              height="130"
+              width="70"
+            />
+            Personal project and applications
+          </div>
+        </div>
+      </section>
+
+      <div class="navbar-spacer"></div>
+      <nav class="navbar">
+        <div class="container">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a class="navbar-link" href="#intro">Intro</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="#resources" data-popover="#resources"
+                >Resources</a
+              >
+              <div id="codeNavPopover" class="popover">
+                <ul class="popover-list">
+                  <li class="popover-item">
+                    <a class="popover-link" href="#codegen">Code Generators</a>
+                  </li>
+                  <li class="popover-item">
+                    <a class="popover-link" href="#typography">UX</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="#projects">Projects</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="#nowplaying">Music</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="docs-section" id="intro">
+        <h6 class="docs-header">I'm <i>Gabs</i> an Integration developer</h6>
+        <p>
+          This is a simple page that contains references to the tools i used in
+          the trade to ease my development. You can also catch all the projects
+          im working on during my free time. Hope the page help you in one way
+          or another. Enjoy your stay!
+        </p>
+        <p>
+          A little bit about me, A well rounded Java/Integration developer with
+          experience in using different frameworks from opensource to large enterprise solutions. Implementing projects using different modern patterns; <em>API </em>,
+          <em>Event-driven</em> and <em>Microservices</em>.
+        </p>
+        <h6 class="docs-header">Lists of frameworks</h6>
+        <div class="row docs-example">
+          <div class="six columns">
+            <ul>
+              <li>Springboot</li>
+              <li>IBM ESB</li>
+              <li>Apache Redhat</li>
+              <li>MuleSoft</li>
+              <li>NodeJs</li>
+              <li>Azure
+                <ul>
+                  <li>Logic App</li>
+                  <li>Function</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+      </div>
+      
+    <!-- Tables -->
+    <div class="docs-section" id="resources">
+      <h6 class="docs-header">Code Generators</h6>
+      <p>Some handy opinionated generators that will kickstart your project creation.</p>
+      <div class="docs-example">
+        <table class="u-full-width">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Description</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Spring IO</td>
+              <td>Spring application Initializer</td>
+              <td><a class="button" href="https://start.spring.io" target="_blank">Go</a><td>
+            </tr>
+            <tr>
+              <td>Quarkus IO</td>
+              <td>Java Native applications</td>
+              <td><a class="button" href="https://code.quarkus.io" target="_blank">Go</a><td>
+            </tr>
+            <tr>
+              <td>MicroProfile IO</td>
+              <td>Java MicroProfile applications</td>
+              <td><a class="button" href="https://start.microprofile.io" target="_blank">Go</a><td>
+            </tr>                    
+            <tr>
+              <td>JHipster</td>
+              <td>Spring React or Angular webapp generator</td>
+              <td><a class="button" href="https://start.jhipster.tech/" target="_blank">Go</a><td>
+            </tr>         
+            <tr>
+              <td>Json data</td>
+              <td>Json data generator</td>
+              <td><a class="button" href="https://www.json-generator.com" target="_blank">Go</a><td>
+            </tr>   
+            <tr>
+              <td>Json schema</td>
+              <td>Json schema generator</td>
+              <td><a class="button" href="https://jsonschema.net/home" target="_blank">Go</a><td>
+            </tr>                                      
+          </tbody>
+        </table>
+        
+        <h6 class="docs-header">Cheat Sheet</h6>
+        <p>To help us recall the cli commands and code</p>
+        <div class="docs-example">
+          <table class="u-full-width">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Link</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Docker Commands</td>
+                <td><a class="button" href="https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf" target="_blank">Go</a><td>
+              </tr>
+              <tr>
+                <td>Kubernetes Commands</td>
+                <td><a class="button" href="https://linuxacademy.com/blog/containers/kubernetes-cheat-sheet/" target="_blank">Go</a><td>
+              </tr>    
+              <tr>
+                <td>Openshift Commands</td>
+                <td><a class="button" href="https://design.jboss.org/redhatdeveloper/marketing/openshift_cheatsheet/cheatsheet/images/openshift_cheat_sheet_r1v1.pdf" target="_blank">Go</a><td>
+              </tr> 
+              <tr>
+                <td>Git Commands</td>
+                <td><a class="button" href="https://www.atlassian.com/dam/jcr:e7e22f25-bba2-4ef1-a197-53f46b6df4a5/SWTM-2088_Atlassian-Git-Cheatsheet.pdf" target="_blank">Go</a><td>
+              </tr>    
+              <tr>
+                <td>Linux Commands</td>
+                <td><a class="button" href="https://files.fosswire.com/2007/08/fwunixref.pdf" target="_blank">Go</a><td>
+              </tr>                           
+              <tr>
+                <td>Html 5</td>
+                <td><a class="button" href="https://websitesetup.org/wp-content/uploads/2019/11/html5-tag-cheat-sheet-2019.pdf" target="_blank">Go</a><td>
+              </tr>   
+              <tr>
+                <td>Emmet</td>
+                <td><a class="button" href="https://docs.emmet.io/cheat-sheet/" target="_blank">Go</a><td>
+              </tr>                             
+            </tbody>
+          </table>
+          
+          <h6 class="docs-header">UX</h6>
+          <p>Tools for Frontend applications</p>
+          <div class="docs-example">
+            <table class="u-full-width">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Description</th>
+                  <th>Link</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Javascript Events</td>
+                  <td>List of all JS Events</td>
+                  <td><a class="button" href="https://developer.mozilla.org/en-US/docs/Web/Events" target="_blank">Go</a><td>
+                </tr>
+                <tr>
+                  <td>CSS</td>
+                  <td>CSS3 Reference</td>
+                  <td><a class="button" href="http://tympanus.net/codrops/css_reference/" target="_blank">Go</a><td>
+                </tr>     
+                <tr>
+                  <td>Responsive Grid</td>
+                  <td>Responsive CSS Grid</td>
+                  <td><a class="button" href="http://www.responsivegridsystem.com/" target="_blank">Go</a><td>
+                </tr>                             
+                <tr>
+                  <td>Fonts</td>
+                  <td>Google Font</td>
+                  <td><a class="button" href="https://www.google.com/fonts" target="_blank">Go</a><td>
+                </tr>
+                <tr>
+                  <td>UI Color Gradient</td>
+                  <td>Gradient Generator</td>
+                  <td><a class="button" href="https://uigradients.com/" target="_blank">Go</a><td>
+                </tr>                    
+                <tr>
+                  <td>Flat UX</td>
+                  <td>Flat colors</td>
+                  <td><a class="button" href="https://flatuicolors.com/" target="_blank">Go</a><td>
+                </tr>         
+                <tr>
+                  <td>Icons</td>
+                  <td>SVG Icons</td>
+                  <td><a class="button" href="https://ionicons.com/" target="_blank">Go</a><td>
+                </tr>                                        
+              </tbody>
+            </table>
+          
+      </div>      
+      
+      
+      
+            
+      <div class="docs-section" id="projects">
+        <h6 class="docs-header">Jenny Tours</h6>
+        <p>
+          A simple website that manages Tours that is all curated by my lovely
+          wife. Its her dream business but we dont know where to start it yet.
+        </p>
+        <p>
+          A diagram of the components and tech stack
+        </p>
+      </div>
+
+      <div class="docs-section" id="nowplaying">
+        <h6 class="docs-header">Tunes that help me going</h6>
+        <iframe
+          src="https://open.spotify.com/embed/playlist/6moyFHpDUjtUQCQ0wFuhxy"
+          width="300"
+          height="380"
+          frameborder="0"
+          allowtransparency="true"
+          allow="encrypted-media"
+        ></iframe>
+      </div>
+    </div>
+    
+    <div class="docs-example" align="center">
+      <div class="docs-example">CSS made by <a href="http://getskeleton.com/" title="Skeleton">Skeleton</a>
+      </div>
+      <div class="docs-example">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+      
+      <p class="footer__copyright">
+        &copy; by m9rcy. All rights reserved.
+      </p>
+    </div>
+    
+    
+    <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  </body>
+</html>
